@@ -11,6 +11,11 @@ router.get('/sensible', (_req, res) => {
   res.send(diaryService.getEntriesWithoutSensitiveInfo())
 })
 
+router.get('/:id', (req, res) => {
+  const diary = diaryService.findDiaryById(Number(req.params.id))
+  return diary != null ? res.send(diary) : res.sendStatus(404)
+})
+
 router.post('/', (_req, res) => {
   res.send('Saving a diary')
 })

@@ -15,4 +15,16 @@ export const getEntriesWithoutSensitiveInfo =
     }))
   }
 
+export const findDiaryById = (
+  id: number
+): NonSensitiveInfoDiaryEntry | undefined => {
+  const diary = diaries.find((diary) => diary.id === id)
+  if (diary != null) {
+    const { comment, ...restOfDiary } = diary
+    return restOfDiary
+  }
+
+  return undefined
+}
+
 export const addEntry = (): undefined => undefined
