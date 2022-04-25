@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "date": "2022-05-01",
+    "weather": "rainy",
+    "visibility": "good",
+    "comment": "Pretty scary flight, I'm glad I'm alive"
+  },
+  {
+    "id": 2,
+    "date": "2022-05-01",
+    "weather": "sunny",
+    "visibility": "good",
+    "comment": "Everything wente better than expected, I'm learning much"
+  },
+  {
+    "id": 3,
+    "date": "2022-05-01",
+    "weather": "windy",
+    "visibility": "good",
+    "comment": "I'm getting pretty confident althought I hit a flock of birds"
+  },
+  {
+    "id": 4,
+    "date": "2022-05-01",
+    "weather": "cloudy",
+    "visibility": "good",
+    "comment": "I almost failed the landing but I survived"
+  }
+]
